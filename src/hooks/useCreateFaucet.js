@@ -38,7 +38,7 @@ const useCreateFaucet = () => {
       });
       const receipt = await txn.wait();
       if (receipt.status === 1) {
-        toast.success("Faucet deployed successfully");
+        toast.success("Faucet created successfully");
         return receipt.logs[0].address;
       } else {
         toast.error("Something went wrong, failed to create");

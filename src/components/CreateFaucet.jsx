@@ -31,7 +31,7 @@ const CreateFaucet = () => {
   };
 
   return (
-    <div className="flex w-full justify-end">
+    <div className="flex w-full justify-end mb-8">
       <Dialog.Root>
         <Dialog.Trigger>
           <Button color="orange">Create Faucet</Button>

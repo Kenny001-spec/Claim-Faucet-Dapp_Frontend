@@ -11,7 +11,7 @@ function App() {
       <Layout>
         <CreateFaucet />
         <Faucets />
-        <ToastContainer position="bottom-right"/>
+        <ToastContainer />
       </Layout>
     </>
   );
